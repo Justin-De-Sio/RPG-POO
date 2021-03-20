@@ -21,6 +21,7 @@ void Arme::changer(std::string nom, int degats)
 
 void Arme::afficher() const
 {
-   cout << "Arme : " << mNom << " (Dégâts : " << mDegats << ")" << endl;
+   cout << "Arme : " << mNom << " (Degats : " << mDegats << ")" << endl
+        << endl
+        << endl;
 }
-

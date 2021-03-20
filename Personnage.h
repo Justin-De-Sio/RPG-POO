@@ -7,7 +7,7 @@ class Personnage
 {
 public:
    Personnage();
-   Personnage(std::string nomArme, int degatsArme);
+   Personnage(std::string nomArme, int degatsArme, std::string nomPersonnage);
    void afficherEtat() const;
    void recevoirDegats(int nbDegats);
    void attaquer(Personnage &cible);
@@ -18,6 +18,7 @@ public:
 private:
    int m_vie;
    int m_mana;
+   std::string m_nomPersonnage;
    Arme m_arme;
 };
 

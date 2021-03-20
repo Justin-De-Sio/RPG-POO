@@ -11,7 +11,7 @@ public:
    Arme(std::string nom, int degats);
    void afficher() const;
    void changer(std::string nom, int degats);
-   int getDegats() const {return mDegats;}
+   int getDegats() const { return mDegats; }
 
 private:
    std::string mNom;
